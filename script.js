@@ -2,7 +2,6 @@ const chatContainer = document.getElementById('chat-container');
 const messageInput = document.getElementById('message-input');
 const sendBtn = document.getElementById('send-btn');
 
-const API_KEY = 'AIzaSyB4TaH_AKSit7ObXRKiwwtSU9SmAtEtpGc';
 let chatHistory = [];
 
 // The system instruction enforcing the medical-only rule
